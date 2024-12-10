@@ -25,6 +25,20 @@ body {
     font-family: var(--font2);
 }
 
+.about-div {
+    padding: 30px;
+    background-color: #fff;
+    box-shadow: 0 3px 3px #aaa;
+}
+
+.about-text {
+    font-size: smaller;
+}
+
+.banner-img {
+    height: 45vh;
+}
+
 .blurb {
     font-size: 1.7rem;
     color: var(--textColor);
@@ -104,6 +118,11 @@ body {
     height: 45vh;
     background-color: #000;
     opacity: 0.68;
+}
+
+#aboutSection {
+    padding: 40px 0;
+    background-color: var(--bg1);
 }
 
 #carouselSection {

@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Restaurant</title>
+</head>
+<body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Oooh+Baby&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Qwitcher+Grypen:wght@400;700&display=swap" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+        
+        <title>Document</title>
+    </head>
+<body>
+        <!-- header -->
+        <header class="header" id="header">
+            <section class="section" id="headerSection1">
+                <div class="container">
+                    <nav class="nav justify-content-center justify-content-md-end">
+                        <a href="#" class="nav-link social-link">
+                            <i class="bi bi-instagram social-link"></i>
+                            <span class="visually-hidden">instagram</span>
+                        </a>
+                        <a href="#" class="nav-link social-link">
+                            <i class="bi bi-twitter social-link"></i>
+                            <span class="visually-hidden">twitter</span>
+                        </a>
+                        <a href="#" class="nav-link social-link">
+                            <i class="bi bi-facebook social-link"></i>
+                            <span class="visually-hidden">facebook</span>
+                        </a>
+                        <a href="#" class="nav-link social-link">
+                            <i class="bi bi-pinterest social-link"></i>
+                            <span class="visually-hidden">pinterest</span>
+                        </a>
+                        <a href="#" class="nav-link social-link">
+                            <i class="bi bi-linkedin social-link"></i>
+                            <span class="visually-hidden">linkedin</span>
+                        </a>
+                    </nav>
+                </div>
+            </section>
+            <section class="section" id="headerSection2">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <h1 class="heading text-capitalize text-center text-md-start text-light">
+                                <a href="index.html" class="text-light text-decoration-none">
+                                    restaurant
+                                </a>
+                            </h1>
+                        </div>
+                        <div class="col-lg-8">
+                            <div class="drop-down-div d-lg-none">
+                                <div class="dropdown text-center text-sm-end">
+                                    <button class="btn dropdown-btn dropdown-toggle" 
+                                    type="button"
+                                    data-bs-toggle="dropdown"
+                                    aria-expanded="false"
+                                    >Select Tab</button>
+                                    <ul class="dropdown-menu text-uppercase">
+                                        <li>
+                                            <a href="about.html" class="dropdown-item">about</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="dropdown-item">events</a>
+                                        </li>
+                                        <li>
+                                            <a href="menu.html" class="dropdown-item">menu</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="dropdown-item">gallery</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="dropdown-item">contacts</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="dropdown-item">blog</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <nav class="nav d-none d-lg-flex main-nav justify-content-lg-end" id="mainNav">
+                                <a href="about.html" class="nav-link main-nav-link text-uppercase text-light text-decoration-none">about</a>
+                                <a href="#" class="nav-link main-nav-link text-uppercase text-light text-decoration-none">events</a>
+                                <a href="menu.html" class="nav-link main-nav-link text-uppercase text-light text-decoration-none">menu</a>
+                                <a href="#" class="nav-link main-nav-link text-uppercase text-light text-decoration-none">gallery</a>
+                                <a href="#" class="nav-link main-nav-link text-uppercase text-light text-decoration-none">contacts</a>
+                                <a href="#" class="nav-link main-nav-link text-uppercase text-light text-decoration-none">blog</a>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="section" id="headerSection3">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <p class="blurb text-center text-md-start fst-italic">Top quality ingrediants only in our kitchen</p>
+                        </div>
+                        <div class="col-md-3 offset-md-6">
+                            <!-- <form action="#" class="form search-form">
+                                <div class="input-group">
+                                    <input type="search" class="form-control">
+                                    <label class="input-group-text">
+                                        <i class="bi bi-search"></i>
+                                        <span class="visually-hidden">search</span>
+                                    </label>
+                                </div>
+                            </form> -->
+                            <button type="button" class="btn cart-btn" id="cartBtn">
+                                <span id="cartItems">0</span> item(s) - $<span id="cartSubtotal">0.00</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </header>
+    <main class="main menu-main" id="main">
+        <!-- menu section -->
+        <section class="section menu-section" id="menuSection">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <h2 class="menu-header text-capitalize">our name</h2>
+                        <p class="menu-slogan text-capitalize">all items are made to order by The Makers</p>
+                    </div>
+                </div>
+                <div class="row row-cols-1 row-cols-md-3 row-cols-lg-4" id="itemDiv">
+                    <!-- <div class="col">
+                        <figure class="figure item-figure">
+                            <img src="https://via.placeholder.com/150x90" alt="placeholder img" class="img-fluid image figure-img" />
+                            <figcaption class="figure-caption item-caption">
+                                <span class="item-price">10.00</span>
+                            </figcaption>
+                            <p class="item-desc" id="itemDesc">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                            <button class="btn menu-btn text-capitalize" id="menuBtn">add to cart</button>
+                        </figure>
+                    </div> -->
+                </div>
+            </div>
+        </section>
+        <section class="section checkout-page d-none" id="checkoutPage">
+            <div class="bar">
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            <p class="bar-text">
+                                <span class="home-switch">Home</span> &gt; Checkout
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <section class="section checkout-section">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h2 class="checkout-header">checkout</h2>
+                            <p class="checkout-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore asperiores harum commodi?</p>
+                            <div class="col-md-6">
+                                <p class="checkout-item-count">
+                                    <span id="checkoutItemCount"></span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <table class="table" id="table">
+                                    <tr class="table-headers">
+                                        <td>item</td>
+                                        <td>price</td>
+                                        <td>quantity</td>
+                                        <td>subtotal</td>
+                                    </tr>
+                                    <!-- load items -->
+                                    <tbody id="tbody"></tbody>
+                                    <tr class="totals" id="totals">
+                                        <td colspan="4">
+                                            <p class="total-subtotal" id="totalSubtotal">Subtotal:</p>
+                                            <p class="total-tax" id="totalTax">Tax:</p>
+                                            <p class="delivery-fee" id="deliveryFee">Delivery Fee:</p>
+                                            <p class="total-total" id="totalTotal">Total:</p>
+                                        </td>
+                                        <td class="total-values" id="totalValues">
+                                            <p class="subtotal-value" id="subtotalValue">0.00</p>
+                                            <p class="tax-value" id="taxValue">0.00</p>
+                                            <p class="delivery-fee-value" id="deliveryValue">0.00</p>
+                                            <p class="total-value">$
+                                                <span id="totalValue"></span>
+                                            </p>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <button class="btn confirm-btn text-capitalize" id="confirmBtn">confirm order</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+    </main>
+<footer class="footer" id="footer">
+    <section class="section" id="footerSection1">
+        <div class="container">
+            <div class="row">
+                <h2 class="fs1-heading fst-italic fw-light">Reservations and orders may be placed anytime</h2>
+                <div class="col-md-4 col-6">
+                    <div class="row">
+                        <div class="col-sm-1">
+                            <i class="bi bi-cup-fill icons"></i>
+                        </div>
+                        <div class="col-sm-11">
+                            <h3 class="fs1-subheading">
+                                <span class="small-text d-block text-uppercase">offer one</span>
+                                Lorem, ipsum dolor.
+                            </h3>
+                            <p class="fs1-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita sunt optio tempore porro vel! Expedita libero porro sit quia, sed qui ex molestias dolorem, labore voluptatum suscipit, fugiat aspernatur et quam adipisci doloremque veritatis minus.</p>
+                            <a href="#" class="fs1-link text-danger text-decoration-none">&gt;&gt;Click here</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-6">
+                    <div class="row">
+                        <div class="col-sm-1">
+                            <i class="bi bi-egg-fill icons"></i>
+                        </div>
+                        <div class="col-sm-11">
+                            <h3 class="fs1-subheading">
+                                <span class="small-text d-block text-uppercase">offer two</span>
+                                Lorem, ipsum dolor.
+                            </h3>
+                            <p class="fs1-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita sunt optio tempore porro vel! Expedita libero porro sit quia, sed qui ex molestias dolorem, labore voluptatum suscipit, fugiat aspernatur et quam adipisci doloremque veritatis minus.</p>
+                            <a href="#" class="fs1-link text-danger text-decoration-none">&gt;&gt;Click here</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 d-none d-md-block">
+                    <div class="row">
+                        <div class="col-sm-1">
+                            <i class="bi bi-heart-fill icons"></i>
+                        </div>
+                        <div class="col-sm-11">
+                            <h3 class="fs1-subheading">
+                                <span class="small-text d-block text-uppercase">offer three</span>
+                                Lorem, ipsum dolor.
+                            </h3>
+                            <p class="fs1-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita sunt optio tempore porro vel! Expedita libero porro sit quia, sed qui ex molestias dolorem, labore voluptatum suscipit, fugiat aspernatur et quam adipisci doloremque veritatis minus.</p>
+                            <a href="#" class="fs1-link text-danger text-decoration-none">&gt;&gt;Click here</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section" id="footerSection2">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <p class="text-center" id="client1">Client Logo</p>
+                </div>
+                <div class="col">
+                    <p class="text-center" id="client2">Client Logo</p>
+                </div>
+                <div class="col d-none d-md-block">
+                    <p class="text-center" id="client3">Client Logo</p>
+                </div>
+                <!-- thats a div -->
+                <div class="col d-none d-md-block">
+                    <p class="text-center" id="client4">Client Logo</p>
+                </div>
+                <div class="col d-none d-md-block">
+                    <p class="text-center" id="client5">Client Logo</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section" id="footerSection3">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <h2 class="text-uppercase fs3-heading text-light">about us</h2>
+                    <p class="fs3-text fst-italic">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores amet a accusamus.</p>
+                    <p class="fs3-text fst-italic">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur doloremque repudiandae omnis enim. Placeat sit illo dolorum est excepturi quo deserunt vitae earum beatae veniam.</p>
+                    <a href="#" class="fs3-link text-light">&gt;&gt;Read More</a>
+                </div>
+                <div class="col-md-3">
+                    <h2 class="text-uppercase fs3-heading text-light">our blog</h2>
+                    <ul class="list-unstyled fs3-list">
+                        <li class="fs3-text"> <a href="#" class="fs3-link text-light text-decoration-none">Lorem ipsum, dolor sit</a> amet consectetur adipisicing elit. Veniam vero illum, quod ullam porro sapiente praesentium provident, tempora dignissimos dolores magnam.</li>
+                        <li class="fs3-text"> <a href="#" class="fs3-link text-light text-decoration-none">Lorem ipsum, dolor sit</a> amet consectetur adipisicing elit. Veniam vero illum, quod ullam porro sapiente praesentium provident, tempora dignissimos dolores magnam.</li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h2 class="text-uppercase fs3-heading text-light">our flickr</h2>
+                </div>
+                <div class="col-md-3">
+                    <h2 class="text-uppercase fs3-heading text-light">get in touch</h2>
+                    <ul class="list-unstyled address fs3-list">
+                        <li>8507 Queens Blvd</li>
+                        <li>Queens, NY</li>
+                        <li>Mobile: 601-777-9311</li>
+                        <li>Telephone: 769-8667-5309</li>
+                        <li>Fax: 220-222-2222</li>
+                        <li><a href="mailto:fakeemail@fakemail.com" class="text-decoration-none text-light">Email: fakeemail@fakemail.com</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section" id="footerSection4">
+        <div class="container">
+            <h2 class="footer-logo text-center text-md-start text-capitalize text-light">restaurant</h2>
+            <p class="text-light colophon">Read
+                <a href="https://tirkom.thecomicseries.com/" target="_blank" class="text-light">Tirkom</a>
+                &copy; 2024
+            </p>
+            <p class="text-light text-center text-md-start"><a href="#headerSection1" class="text-light">Back to Top</a></p>
+        </div>
+    </section>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+<script src="js/app.js"></script>
+</body>
+</html>
